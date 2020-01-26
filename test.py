@@ -369,8 +369,5 @@ async def kill( ctx, member: discord.Member ):
 
         print( '[!] Была использована команда > !kill' )
 
-
-
-
 # Включение
-bot.run( 'token' )
+bot.run( token )
