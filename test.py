@@ -8,7 +8,7 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix = '!')
 bot.remove_command('help')
-
+token = 'NjU1NDc2NjQxMDQ0MzY1MzMx.Xiwc5Q.os9KNgyazuLlz30XGBjtt7aUDyw'
 
 @bot.event
 
@@ -373,4 +373,4 @@ async def kill( ctx, member: discord.Member ):
 
 
 # Включение
-bot.run( 'NjU1NDc2NjQxMDQ0MzY1MzMx.Xiwc5Q.os9KNgyazuLlz30XGBjtt7aUDyw' )
+bot.run( 'token' )
